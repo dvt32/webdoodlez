@@ -1,0 +1,52 @@
+body {
+	background-color: cyan;
+}
+
+#box {
+	width: 600px;
+	height: 385px;
+	background-image: url("background.png");
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 2px solid black;
+	border-radius: 20px;
+	/* set bounds for Mario's animation */
+	position: relative;
+	overflow: hidden;
+}
+
+#nested-box {
+	display: inline-block;
+	background-color: #D9E053;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#mario {
+	position: relative;
+    top: 274px;
+    left: 15px;
+}
+
+#mushroom {
+	position: relative;
+	top: 274px;
+	left: 450px;
+}
+
+#bowser {
+	display: none;
+	position: relative;
+	top: 274px;
+	left: -150px;
+}
+
+#dont-trust-me {
+	display: none;
+	text-align: center;
+	color: white;
+}

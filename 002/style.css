@@ -1,0 +1,42 @@
+/* Header */
+body {
+	background-color: #6f9de8;
+	text-align: center;
+}
+
+body h1 {
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#submit-btn {
+	margin-top: 5px;
+}
+
+#all-posts {
+	margin-top: 10px;
+	background-color: #D9E053;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.post-container {
+	margin: 10px;
+	background-color: #97bbf4;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.post-text {
+	margin: 20px;
+}
+
+.delete-btn {
+	margin-bottom: 5px;
+}
